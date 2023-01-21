@@ -1,0 +1,10 @@
+name = "gh"
+main = "src/index.ts"
+compatibility_date = "2023-01-13"
+account_id = "6d8d78bb3e204b9b460754ff47eb6613"
+route = "gh.erdos.one/*"
+usage_model = "bundled"
+env = { }
+
+[triggers]
+crons = [ ]
