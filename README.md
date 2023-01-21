@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<h1 align="center">gh.erdos.one — For shorter install commands</h1>
+<h1 align="center">gh.erdos.one — Shorter install commands</h1>
 
 Be gone the era of typing `https://raw.githubusercontent.com/...`
 
@@ -20,7 +20,7 @@ experience!
 To fetch *any file* in *any branch* of *any repo*, use the following format:
 
 ```bash
-https://gh.erdos.one/user/repo/branch/filepath
+curl https://gh.erdos.one/user/repo/branch/filepath
 ```
 
 Fetching this URL will return the raw file located at
@@ -33,7 +33,7 @@ comes from the following use cases.
 To fetch *any file* in the *main branch* of *any repo*, use the following format:
 
 ```bash
-https://gh.erdos.one/user/repo/filepath
+curl https://gh.erdos.one/user/repo/filepath
 ```
 
 ### Fetch install.sh in the main branch
@@ -41,7 +41,7 @@ https://gh.erdos.one/user/repo/filepath
 To fetch the file *install.sh* in the *main branch* of *any repo*, use the following format:
 
 ```bash
-https://gh.erdos.one/user/repo
+curl https://gh.erdos.one/user/repo
 ```
 
 ## How it works
